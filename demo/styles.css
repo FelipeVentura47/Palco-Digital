@@ -154,12 +154,12 @@ nav { display: flex; align-items: center; gap: 5px; }
   position: absolute; z-index: 2; left: 9.5%; top: 0; display: flex; align-items: center;
   width: min(80%, 1540px); height: 230px; padding: 38px 50px;
   color: #a4161a; background: rgba(255,255,255,.96); border-radius: 20px;
-  box-shadow: 0 8px 8px rgba(0,0,0,.1); font-size: clamp(2.2rem, 3vw, 3.2rem); font-weight: 700; line-height: 1.15;
+  box-shadow: 0 8px 8px rgba(0,0,0,.1); font-size: clamp(2rem, 2.35vw, 2.55rem); font-weight: 700; line-height: 1.15;
 }
 .program-badge::after {
   content: "EXPOSIÇÃO  •  OFICINA  •  EVENTO  •  VISITA GUIADA";
-  position: absolute; left: 310px; right: 26px; top: 32px; bottom: 32px; display: grid; place-items: center;
-  padding: 20px; color: var(--ink); background: #d3d3d3; border-radius: 20px;
+  position: absolute; left: 390px; right: 26px; top: 32px; bottom: 32px; display: grid; place-items: center;
+  padding: 20px; color: var(--ink); background: #d3d3d3; border-radius: 18px;
   font-family: Roboto, sans-serif; font-size: clamp(.92rem, 1.3vw, 1.25rem); font-weight: 600; letter-spacing: .05em; text-align: center;
 }
 
@@ -338,7 +338,7 @@ footer a { color: white; font-weight: 700; }
   .program-intro-copy { min-height: 560px; padding: 100px 50px 70px; border-radius: 40px 40px 0 0; }
   .program-intro > img { min-height: 540px; border-radius: 0 0 40px 40px; }
   .program-badge { height: 220px; }
-  .program-badge::after { left: 280px; }
+  .program-badge::after { left: 300px; }
   .filters { grid-template-columns: 1fr 1fr; }
   .metrics { grid-template-columns: repeat(2, 1fr); }
   .new-activity-form { grid-template-columns: 1fr 1fr; }
