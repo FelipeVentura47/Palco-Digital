@@ -21,6 +21,7 @@ Cada pessoa deve validar o próprio material. A revisão cruzada é uma proposta
 ## Ferramentas e forma de trabalho propostas
 
 - **GitHub:** armazenar documentação, registrar alterações e revisar contribuições.
+- **Korah Kanban:** acompanhar visualmente as tarefas da equipe, seus responsáveis e o progresso. O [quadro público do projeto](https://app.korah.cloud/board/public/308b2322-a66b-4d01-beb8-1b83d24208bb) pode ser consultado pela professora.
 - **Markdown:** manter arquivos legíveis e fáceis de editar pelo navegador ou editor de texto.
 - **Canal do grupo:** combinar horários e resolver dúvidas. O histórico menciona WhatsApp, mas nenhuma mensagem foi enviada por este trabalho de preparação.
 - **PDF e roteiro:** apresentar a proposta e praticar a divisão do tempo.
@@ -29,6 +30,8 @@ Cada pessoa deve validar o próprio material. A revisão cruzada é uma proposta
 ## Como registrar decisões
 
 Usar [06-decisoes.md](06-decisoes.md) como registro central. Cada entrada deve identificar data, assunto, decisão, justificativa, pessoas que confirmaram e pendências. Uma proposta fica identificada como proposta até ser discutida. O histórico de commits registra alterações de arquivo, mas não substitui a explicação de por que uma decisão foi tomada.
+
+O quadro Kanban mostra a movimentação das tarefas e ajuda a visualizar o andamento. O registro de decisões explica o motivo das escolhas. Os dois materiais se complementam e não substituem a revisão individual das contribuições.
 
 ## Plano ajustado ao calendário atual
 

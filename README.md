@@ -18,6 +18,10 @@ O MVP permite consultar atividades, fazer uma inscrição fictícia, gerar um in
 
 > Use apenas dados fictícios. O demonstrador não possui autenticação, banco de dados, sincronização entre dispositivos ou segurança de produção. Consulte o [roteiro e as limitações do MVP](demo/README.md).
 
+## Acompanhamento das tarefas
+
+O progresso das atividades realizadas pela equipe pode ser consultado no **[quadro Kanban público do projeto](https://app.korah.cloud/board/public/308b2322-a66b-4d01-beb8-1b83d24208bb)**. O quadro complementa a [explicação sobre a organização do trabalho](docs/05-organizacao.md) e o [registro de decisões](docs/06-decisoes.md).
+
 ## Equipe e papéis propostos
 
 | Integrante | Papel | Por que essa área é necessária | Materiais |
@@ -42,6 +46,7 @@ Os nomes seguem o arquivo fornecido pelo grupo. Ycaro e Jairisson podem acrescen
 8. [Slides em PDF](apresentacao/slides.pdf) · [Conteúdo editável](apresentacao/slides.md) · [Roteiro de 14 minutos](apresentacao/roteiro.md)
 9. [Como colaborar pelo GitHub](CONTRIBUTING.md)
 10. [MVP online](https://felipeventura47.github.io/Palco-Digital/demo/) · [Código do MVP](demo/index.html) · [Instruções da demonstração](demo/README.md)
+11. [Quadro Kanban público](https://app.korah.cloud/board/public/308b2322-a66b-4d01-beb8-1b83d24208bb)
 
 ## A solução em um exemplo
 

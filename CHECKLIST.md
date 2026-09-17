@@ -19,6 +19,7 @@
 - [x] Links locais e coerência documental conferidos na versão final.
 - [x] MVP acadêmico implementado para demonstração dos fluxos principais.
 - [x] MVP testado em desktop e celular e publicado pelo GitHub Pages.
+- [x] Link público do quadro Kanban adicionado e verificado.
 - [ ] Ensaiar a demonstração do MVP usando somente dados fictícios.
 
 ## Revisão e participação do grupo

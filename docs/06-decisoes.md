@@ -55,6 +55,12 @@ Não há atas retroativas de reuniões ou aprovações coletivas presumidas.
 
 O MVP foi conferido visualmente em desktop e celular. O teste funcional cobriu programação inicial, inscrição, emissão de código, primeiro check-in, bloqueio de reutilização e publicação de aviso. Endereço: <https://felipeventura47.github.io/Palco-Digital/demo/>.
 
+## 17/09/2026 · Quadro de acompanhamento
+
+Felipe informou e autorizou a inclusão do quadro Kanban público usado para mostrar o progresso das tarefas da equipe. O link foi adicionado ao README e ao documento de organização:
+
+<https://app.korah.cloud/board/public/308b2322-a66b-4d01-beb8-1b83d24208bb>
+
 As atribuições profissionais e os textos individuais continuam aguardando a confirmação dos respectivos integrantes.
 
 ### Justificativas das principais propostas
