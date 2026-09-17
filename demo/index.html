@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MVP acadêmico da Palco Digital para programação e inscrições de um centro cultural.">
+  <title>Palco Digital · Centro Cultural</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <a class="brand" href="#programacao" aria-label="Palco Digital, início">
+      <span class="brand-mark" aria-hidden="true">P</span>
+      <span>Palco <strong>Digital</strong></span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <button class="nav-link active" data-view="programacao">Programação</button>
+      <button class="nav-link" data-view="ingresso">Meu ingresso <span id="ticket-count" class="count" hidden>1</span></button>
+      <button class="nav-link" data-view="equipe">Painel da equipe</button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section id="view-programacao" class="view active" aria-labelledby="titulo-programacao">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Centro Cultural Horizonte · demonstração</p>
+          <h1 id="titulo-programacao">Cultura perto de você</h1>
+          <p>Consulte a programação, confira as regras e garanta sua vaga em atividades gratuitas.</p>
+          <a class="primary-link" href="#agenda">Ver programação</a>
+        </div>
+        <img src="../apresentacao/assets/centro-cultural.png" alt="Ilustração de um centro cultural com exposição, oficina e apresentação musical">
+      </div>
+
+      <div class="demo-notice" role="note">
+        <strong>MVP acadêmico.</strong> Use dados fictícios. As informações ficam apenas neste navegador e podem ser apagadas pelo painel da equipe.
+      </div>
+
+      <section id="agenda" class="content-section" aria-labelledby="agenda-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Agenda cultural</p>
+            <h2 id="agenda-title">Encontre uma atividade</h2>
+          </div>
+          <p id="result-count" class="result-count" aria-live="polite"></p>
+        </div>
+
+        <form class="filters" id="filters" aria-label="Filtros da programação">
+          <label>
+            Buscar
+            <input id="search" type="search" placeholder="Nome ou local">
+          </label>
+          <label>
+            Categoria
+            <select id="category">
+              <option value="todas">Todas</option>
+              <option value="Exposição">Exposição</option>
+              <option value="Oficina">Oficina</option>
+              <option value="Evento">Evento</option>
+              <option value="Visita guiada">Visita guiada</option>
+            </select>
+          </label>
+          <label>
+            Data
+            <select id="date-filter">
+              <option value="todas">Todas as datas</option>
+            </select>
+          </label>
+          <button class="secondary-button" type="reset">Limpar filtros</button>
+        </form>
+
+        <div id="activity-grid" class="activity-grid"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <h3>Nenhuma atividade encontrada</h3>
+          <p>Altere os filtros para consultar outras opções.</p>
+        </div>
+      </section>
+    </section>
+
+    <section id="view-ingresso" class="view content-section" aria-labelledby="ticket-title" hidden>
+      <div class="section-heading compact">
+        <div>
+          <p class="eyebrow">Participação</p>
+          <h1 id="ticket-title">Meu ingresso</h1>
+        </div>
+      </div>
+      <div id="ticket-area"></div>
+    </section>
+
+    <section id="view-equipe" class="view content-section" aria-labelledby="team-title" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Modo de demonstração</p>
+          <h1 id="team-title">Painel da equipe</h1>
+          <p class="section-description">Simula as tarefas da coordenação e da recepção. Este MVP não possui autenticação real.</p>
+        </div>
+        <button id="reset-demo" class="danger-button" type="button">Restaurar demonstração</button>
+      </div>
+
+      <div id="metrics" class="metrics" aria-label="Resumo da operação"></div>
+
+      <div class="admin-layout">
+        <section class="panel" aria-labelledby="checkin-title">
+          <p class="eyebrow">Recepção</p>
+          <h2 id="checkin-title">Validar ingresso</h2>
+          <form id="checkin-form" class="stack-form">
+            <label>
+              Código do ingresso
+              <input id="checkin-code" required placeholder="Ex.: PD-AB12CD" autocomplete="off">
+            </label>
+            <button class="primary-button" type="submit">Registrar entrada</button>
+          </form>
+          <div id="checkin-result" class="operation-result" aria-live="polite"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="notice-title">
+          <p class="eyebrow">Coordenação</p>
+          <h2 id="notice-title">Aviso público</h2>
+          <form id="notice-form" class="stack-form">
+            <label>
+              Mensagem para o público
+              <textarea id="notice-text" rows="3" maxlength="160" placeholder="Ex.: A oficina começará às 15h30."></textarea>
+            </label>
+            <button class="secondary-button" type="submit">Publicar aviso</button>
+          </form>
+          <div id="current-notice" class="operation-result"></div>
+        </section>
+      </div>
+
+      <section class="panel wide" aria-labelledby="activities-admin-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Coordenação</p>
+            <h2 id="activities-admin-title">Gerenciar atividades</h2>
+          </div>
+          <button id="toggle-new-activity" class="secondary-button" type="button" aria-expanded="false">Nova atividade</button>
+        </div>
+
+        <form id="new-activity-form" class="new-activity-form" hidden>
+          <label>Título<input name="title" required maxlength="70"></label>
+          <label>Categoria
+            <select name="category" required>
+              <option>Exposição</option><option>Oficina</option><option>Evento</option><option>Visita guiada</option>
+            </select>
+          </label>
+          <label>Data<input name="date" type="date" required></label>
+          <label>Horário<input name="time" type="time" required></label>
+          <label>Local<input name="location" required maxlength="60"></label>
+          <label>Vagas<input name="capacity" type="number" min="1" max="500" required></label>
+          <label class="full-field">Descrição<textarea name="description" rows="2" required maxlength="200"></textarea></label>
+          <label class="full-field">Regras<textarea name="rules" rows="2" required maxlength="200"></textarea></label>
+          <div class="form-actions full-field">
+            <button class="primary-button" type="submit">Cadastrar atividade</button>
+            <button id="cancel-new-activity" class="text-button" type="button">Cancelar</button>
+          </div>
+        </form>
+
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Atividade</th><th>Data</th><th>Inscrições</th><th>Situação</th><th>Ação</th></tr></thead>
+            <tbody id="admin-activities"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel wide" aria-labelledby="attendees-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Atendimento</p>
+            <h2 id="attendees-title">Inscrições</h2>
+          </div>
+          <label class="compact-filter">Filtrar por atividade<select id="attendee-filter"></select></label>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Participante</th><th>Atividade</th><th>Código</th><th>Estado</th></tr></thead>
+            <tbody id="attendees-table"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="activity-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Fechar">×</button>
+    <div id="activity-detail"></div>
+    <form id="registration-form" class="stack-form registration-form">
+      <input id="registration-activity-id" type="hidden">
+      <h3>Solicitar inscrição</h3>
+      <p class="privacy-note">Para esta demonstração, use dados fictícios. Nome e e-mail ficam salvos somente neste navegador.</p>
+      <label>Nome completo<input id="visitor-name" required autocomplete="name" maxlength="80"></label>
+      <label>E-mail<input id="visitor-email" required type="email" autocomplete="email" maxlength="100"></label>
+      <label class="checkbox-label"><input id="rules-accepted" type="checkbox" required> Li e aceito as regras da atividade.</label>
+      <button class="primary-button" type="submit">Confirmar inscrição</button>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <footer>
+    <p><strong>Palco Digital</strong> · MVP acadêmico para demonstração · Dados armazenados localmente</p>
+    <a href="../README.md">Documentação do projeto</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

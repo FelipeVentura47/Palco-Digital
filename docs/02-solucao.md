@@ -1,5 +1,7 @@
 # 02 · Proposta de solução
 
+> **Demonstração:** há um [MVP acadêmico executável](../demo/index.html) dos fluxos principais. Ele usa dados fictícios e armazenamento local. As regras e a arquitetura descritas neste documento continuam sendo a referência para uma implementação real.
+
 ## Formato escolhido
 
 Uma **plataforma web responsiva**, acessível pelo navegador do celular ou computador. A escolha permite compartilhar o mesmo endereço nos canais de divulgação e dispensa a instalação de um aplicativo. O produto terá uma área pública e um painel restrito à equipe do centro cultural.

@@ -17,6 +17,8 @@
 - [x] Slides em PDF preparados e conferidos visualmente (12 páginas).
 - [x] Roteiro com falas distribuídas e duração planejada de 14 minutos.
 - [x] Links locais e coerência documental conferidos na versão final.
+- [x] MVP acadêmico implementado para demonstração dos fluxos principais.
+- [ ] Ensaiar a demonstração do MVP usando somente dados fictícios.
 
 ## Revisão e participação do grupo
 

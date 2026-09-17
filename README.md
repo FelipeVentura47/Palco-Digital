@@ -8,7 +8,13 @@ Disciplina: Designer Profissional · Equipe de cinco integrantes
 
 A **Palco Digital** é uma empresa fictícia de tecnologia voltada à gestão de atividades culturais. Sua proposta é desenvolver soluções web que aproximem o público da programação e ajudem centros culturais a organizar inscrições e atendimento. Neste projeto, a empresa propõe uma plataforma que reúne exposições, oficinas, eventos e visitas guiadas em um único lugar, com informações claras e controle de participação.
 
-**Estado do projeto:** proposta documentada, sem sistema implementado. O grupo confirmou **Palco Digital** como nome da empresa. O escopo e a atribuição dos papéis abaixo são a versão de trabalho preparada para revisão do grupo. As descrições e postagens individuais precisam ser lidas, ajustadas e assumidas pelos respectivos integrantes antes da entrega.
+**Estado do projeto:** proposta documentada e MVP acadêmico disponível para demonstração. O grupo confirmou **Palco Digital** como nome da empresa. O MVP simula os fluxos principais no navegador e não representa um sistema pronto para produção. O escopo e a atribuição dos papéis abaixo são a versão de trabalho preparada para revisão do grupo. As descrições e postagens individuais precisam ser lidas, ajustadas e assumidas pelos respectivos integrantes antes da apresentação.
+
+## Experimentar o MVP
+
+O [MVP demonstrativo](demo/index.html) permite consultar atividades, fazer uma inscrição fictícia, gerar um ingresso, administrar a programação e registrar check-in. Ele foi construído em HTML, CSS e JavaScript e armazena os dados somente no navegador.
+
+> Use apenas dados fictícios. O demonstrador não possui autenticação, banco de dados, sincronização entre dispositivos ou segurança de produção. Consulte o [roteiro e as limitações do MVP](demo/README.md).
 
 ## Equipe e papéis propostos
 
@@ -33,6 +39,7 @@ Os nomes seguem o arquivo fornecido pelo grupo. Ycaro e Jairisson podem acrescen
 7. [Checklist atualizado de entrega](CHECKLIST.md)
 8. [Slides em PDF](apresentacao/slides.pdf) · [Conteúdo editável](apresentacao/slides.md) · [Roteiro de 14 minutos](apresentacao/roteiro.md)
 9. [Como colaborar pelo GitHub](CONTRIBUTING.md)
+10. [MVP demonstrativo](demo/index.html) · [Instruções da demonstração](demo/README.md)
 
 ## A solução em um exemplo
 

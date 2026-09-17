@@ -87,14 +87,13 @@ Usar cerca de 20 segundos para explicar o papel e a motivação, 30 para uma ent
 
 ## Slide 11 · Felipe · 1 minuto
 
-Abrir o repositório público já conferido, em uma aba preparada, e seguir esta ordem:
+Abrir o repositório público e o MVP em duas abas previamente preparadas. Seguir esta ordem:
 
 1. **15 segundos:** mostrar o README, a empresa, a equipe e o índice.
-2. **15 segundos:** abrir a proposta da solução e apontar prioridades e cuidados.
-3. **20 segundos:** mostrar as pastas de papéis e postagens e abrir um exemplo.
-4. **10 segundos:** apontar organização e decisões, explicando o que o grupo realmente revisou e confirmou.
+2. **10 segundos:** apontar as pastas de papéis, postagens, organização e decisões.
+3. **35 segundos:** abrir o MVP, filtrar uma atividade e mostrar rapidamente o ingresso já preparado ou o painel da equipe.
 
-Se a internet falhar, permanecer no slide e usar os arquivos locais. Não afirmar que convites, revisões ou decisões foram concluídos sem verificar. Base: [organização](../docs/05-organizacao.md) e [decisões](../docs/06-decisoes.md).
+Para uma demonstração completa de inscrição e check-in, combinar antes qual fala será encurtada ou usar até um minuto da margem. Se a internet falhar, abrir `demo/index.html` localmente. Não afirmar que o MVP possui banco de dados, autenticação ou segurança de produção. Base: [organização](../docs/05-organizacao.md), [decisões](../docs/06-decisoes.md) e [instruções do MVP](../demo/README.md).
 
 ## Slide 12 · Yan · 50 segundos
 
