@@ -40,6 +40,8 @@ Não há atas retroativas de reuniões ou aprovações coletivas presumidas.
 | Nome da empresa | Manter **Palco Digital** | Confirmado por Felipe |
 | Publicação | Publicar a documentação preparada no repositório público `FelipeVentura47/Palco-Digital` | Autorizado por Felipe |
 
+**Publicação concluída:** o primeiro commit foi enviado à branch `main` em 17/09/2026. O repositório e o README foram conferidos pela URL pública.
+
 As atribuições profissionais e os textos individuais continuam aguardando a confirmação dos respectivos integrantes.
 
 ### Justificativas das principais propostas

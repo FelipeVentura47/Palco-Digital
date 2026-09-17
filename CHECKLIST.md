@@ -32,9 +32,9 @@
 
 ## GitHub e entrega
 
-- [ ] Confirmar publicação dos arquivos no repositório informado.
+- [x] Publicar os arquivos no repositório informado (17/09/2026).
 - [x] Confirmar que o repositório informado é público (verificado em 13/09/2026).
-- [ ] Conferir os arquivos sem login após sua publicação.
+- [x] Conferir o README pela URL pública sem autenticação após a publicação.
 - [ ] Obter usuários de Yan, Ycaro, Jairisson e Flavio e enviar convites.
 - [ ] Os quatro colegas aceitarem os convites.
 - [ ] Conferir o calendário da turma. Em 2026: 17/09 é quinta e 18/09 é sexta.
