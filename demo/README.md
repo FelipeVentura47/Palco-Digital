@@ -2,6 +2,8 @@
 
 Aplicação web estática criada para demonstrar a proposta na apresentação da disciplina. Funciona diretamente no navegador, sem instalação e sem servidor próprio.
 
+**Acesso público:** [felipeventura47.github.io/Palco-Digital/demo](https://felipeventura47.github.io/Palco-Digital/demo/)
+
 ## O que pode ser demonstrado
 
 1. Consultar e filtrar a programação por texto, categoria e data.

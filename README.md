@@ -12,7 +12,9 @@ A **Palco Digital** é uma empresa fictícia de tecnologia voltada à gestão de
 
 ## Experimentar o MVP
 
-O [MVP demonstrativo](demo/index.html) permite consultar atividades, fazer uma inscrição fictícia, gerar um ingresso, administrar a programação e registrar check-in. Ele foi construído em HTML, CSS e JavaScript e armazena os dados somente no navegador.
+**[Abrir o MVP online](https://felipeventura47.github.io/Palco-Digital/demo/)**
+
+O MVP permite consultar atividades, fazer uma inscrição fictícia, gerar um ingresso, administrar a programação e registrar check-in. Ele foi construído em HTML, CSS e JavaScript e armazena os dados somente no navegador.
 
 > Use apenas dados fictícios. O demonstrador não possui autenticação, banco de dados, sincronização entre dispositivos ou segurança de produção. Consulte o [roteiro e as limitações do MVP](demo/README.md).
 
@@ -39,7 +41,7 @@ Os nomes seguem o arquivo fornecido pelo grupo. Ycaro e Jairisson podem acrescen
 7. [Checklist atualizado de entrega](CHECKLIST.md)
 8. [Slides em PDF](apresentacao/slides.pdf) · [Conteúdo editável](apresentacao/slides.md) · [Roteiro de 14 minutos](apresentacao/roteiro.md)
 9. [Como colaborar pelo GitHub](CONTRIBUTING.md)
-10. [MVP demonstrativo](demo/index.html) · [Instruções da demonstração](demo/README.md)
+10. [MVP online](https://felipeventura47.github.io/Palco-Digital/demo/) · [Código do MVP](demo/index.html) · [Instruções da demonstração](demo/README.md)
 
 ## A solução em um exemplo
 

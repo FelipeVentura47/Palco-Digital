@@ -42,6 +42,19 @@ Não há atas retroativas de reuniões ou aprovações coletivas presumidas.
 
 **Publicação concluída:** o primeiro commit foi enviado à branch `main` em 17/09/2026. O repositório e o README foram conferidos pela URL pública.
 
+## 17/09/2026 · MVP para demonstração
+
+**Solicitação:** Felipe autorizou a criação de um MVP para demonstrar a proposta na aula.
+
+| Assunto | Decisão | Justificativa |
+|---|---|---|
+| Tecnologia | HTML, CSS e JavaScript sem dependências | Executa no navegador e reduz riscos de instalação durante a apresentação |
+| Dados | Armazenamento local e uso exclusivo de dados fictícios | Permite demonstrar os fluxos sem tratar dados reais |
+| Publicação | GitHub Pages | Oferece acesso direto pelo repositório público |
+| Limite | Demonstrador sem servidor, banco de dados ou autenticação real | O protótipo não deve ser apresentado como sistema de produção |
+
+O MVP foi conferido visualmente em desktop e celular. O teste funcional cobriu programação inicial, inscrição, emissão de código, primeiro check-in, bloqueio de reutilização e publicação de aviso. Endereço: <https://felipeventura47.github.io/Palco-Digital/demo/>.
+
 As atribuições profissionais e os textos individuais continuam aguardando a confirmação dos respectivos integrantes.
 
 ### Justificativas das principais propostas

@@ -18,6 +18,7 @@
 - [x] Roteiro com falas distribuídas e duração planejada de 14 minutos.
 - [x] Links locais e coerência documental conferidos na versão final.
 - [x] MVP acadêmico implementado para demonstração dos fluxos principais.
+- [x] MVP testado em desktop e celular e publicado pelo GitHub Pages.
 - [ ] Ensaiar a demonstração do MVP usando somente dados fictícios.
 
 ## Revisão e participação do grupo
